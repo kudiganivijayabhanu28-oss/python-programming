@@ -1,0 +1,8 @@
+x=int(input("Enter any number:"))
+i=0
+while(i<=x):
+  if(i%2==0):
+     print("Even-",i)
+  else:
+     print("Odd-",i)
+i+=1
