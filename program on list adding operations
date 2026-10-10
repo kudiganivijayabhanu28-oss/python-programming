@@ -1,0 +1,7 @@
+courses=["MCA","MBA","BBA"]
+courses.append("Mtech")
+print(courses)#['MCA','MBA','BBA','Mtech']
+courses.insert(2,"MSC")
+print(courses)#['MCA','MBA','MSC','BBA','Mtech']
+courses.extend("Btech")
+print(courses)#['MCA','MBA','MSC','BBA',Mtech','Btech']
