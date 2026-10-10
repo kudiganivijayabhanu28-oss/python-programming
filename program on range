@@ -1,0 +1,6 @@
+# program 1
+for i in range(5):
+       print(i,end=" ")
+#program 2
+for i in range(2,8)
+       print(i,end=" ")
