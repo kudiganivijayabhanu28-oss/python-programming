@@ -1,0 +1,7 @@
+marks=int(input("Enter any number:"))
+if(marks>=40):
+    print("You are pass")
+    print("Congratulations")
+else:
+    print("You are fail")
+    print("Better luck next time")
