@@ -1,0 +1,4 @@
+colours=["Blue","Orange","Red","Green"]
+print(colours)
+print(colours[0])
+print(colours[-1])
