@@ -1,0 +1,46 @@
+contacts={}
+while True:
+    print("\nCONTACT MANAGEMENT SYSTEM")
+    print("1.Add contacts")
+    print("2.Search contacts")
+    print("3.Update contacts")
+    print("4.Delete contacts")
+    print("5.Display contacts")
+    print("6.Exit")
+    choice=int(input("Enter your choice:"))
+    if(choice==1):
+        name=input("Enter name:")
+        phone=input("Enter phone:")
+        contacts[name]=phone
+        print("contacts added sucessfully")
+    elif(choice==2):
+        name=input("Enter name:")
+        if name in contacts:
+            print=("phone:",contacts[name])
+        else:
+            print=("contact not found")
+    elif(choice==3):
+        name=input("Enter name:")
+        if name in contacts:
+            phone=input("Enter New phone:")
+            contacts[name]=phone
+            print("Updated Successfully")
+        else:
+            print("contact not found")
+    elif(choice==4):
+            name=input("Enter name:")
+            if name in contacts:
+                del contacts[name]
+                print("Deleted Successfully")
+            else:
+                print("contact not found")
+    elif(choice==5):
+            print("\nCONTACT LIST")
+            for name,phone in contacts.items():
+                print(name,"\t",phone)
+    elif(choice==6):
+            print("THANK YOU")
+            break
+    else:
+        print("Invalid Choice")
+           
