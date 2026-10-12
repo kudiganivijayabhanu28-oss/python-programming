@@ -1,0 +1,8 @@
+student={
+    "Roll":101,
+    "Name":"Bhanu",
+    "Branch":"MCA",
+    "CGPA":9.3
+    }
+for key,value in student.items():
+    print(key,"=",value)
