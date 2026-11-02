@@ -1,0 +1,3 @@
+csv_line="Anu,21,MCA"
+fields=csv_line.split(",")
+print(fields)#['Anu', '21', 'MCA']
